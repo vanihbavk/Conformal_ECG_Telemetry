@@ -1,0 +1,22 @@
+# Raw PhysioNet datasets (fetched with experiments/download_data.py)
+/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Generated LaTeX fragments (derived from results/*.json)
+/results/latex/
+
+# Manuscript lives on Zenodo, not in this repository
+/paper/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/

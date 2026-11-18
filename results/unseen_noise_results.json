@@ -1,0 +1,46 @@
+{
+  "tau_08": 0.20664248909198601,
+  "results": {
+    "em_6dB": {
+      "snr_db": 6.0,
+      "accept_pct": 51.389854065323135,
+      "risk_pct": 7.8546099290780145,
+      "risk_ci_lo": 5.336436170212764,
+      "risk_ci_hi": 11.028812056737587,
+      "exceeds_alpha_08": false
+    },
+    "em_0dB": {
+      "snr_db": 0.0,
+      "accept_pct": 25.295343988881168,
+      "risk_pct": 13.421985815602838,
+      "risk_ci_lo": 8.350620567375886,
+      "risk_ci_hi": 19.238475177304963,
+      "exceeds_alpha_08": true
+    },
+    "em_-3dB": {
+      "snr_db": -3.0,
+      "accept_pct": 9.48575399583044,
+      "risk_pct": 6.684397163120567,
+      "risk_ci_lo": 3.7411347517730493,
+      "risk_ci_hi": 9.964539007092199,
+      "exceeds_alpha_08": false
+    }
+  },
+  "em_0dB_recalibration": {
+    "15": {
+      "m_target": 15,
+      "accept_pct": 8.060853513526345,
+      "risk_pct": 2.111979166666666
+    },
+    "25": {
+      "m_target": 25,
+      "accept_pct": 13.683207971892696,
+      "risk_pct": 5.83459595959596
+    },
+    "35": {
+      "m_target": 35,
+      "accept_pct": 14.258705531010241,
+      "risk_pct": 6.0115740740740735
+    }
+  }
+}
